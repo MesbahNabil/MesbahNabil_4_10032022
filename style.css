@@ -46,6 +46,7 @@ a:hover {
 
 .bloc-lg {
 	padding: 100px 50px;
+	position: relative;
 }
 
 .bloc-md {
@@ -771,11 +772,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-	background-color: #f3976c;
+	background-color: #575757;
 }
 
 .tc-white {
-	color: #f3976c !important;
+	color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
@@ -981,6 +982,7 @@ h4 {
 	.bloc-xl,
 	.bloc-lg {
 		padding: 40px 0;
+		position: relative;
 	}
 	.bloc-sm,
 	.bloc-md {
