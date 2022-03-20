@@ -1,0 +1,23 @@
+{
+  "sitemap.xml": {
+    "Protocol": "https",
+    "DomainName": "https://mesbahnabil.github.io/MesbahNabil_4_10032022/",
+    "Root": "./",
+    "IncludeExt": [
+      ".html",
+      ".php"
+    ],
+    "Exclude": [],
+    "TagsToInclude": [
+      "priority",
+      "lastmod"
+    ],
+    "DefaultChangeFrequency": "monthly",
+    "TabCharacters": "\t",
+    "bIncludeWWW": true,
+    "bRemoveFileExtentions": false,
+    "bUseTrailingSlash": false,
+    "bAutomaticallyUpdateSitemap": true,
+    "bMinimized": false
+  }
+}
