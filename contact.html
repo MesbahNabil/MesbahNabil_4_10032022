@@ -23,9 +23,9 @@
 
 		<script async src="./js/jquery-2.1.0.min.js" defer></script>
 		<script async src="./js/bootstrap.min.js" defer></script>
-		<script async src="./js/blocs.min.js"defer></script>
-		<script async src="./js/jqBootstrapValidation.min.js"defer></script>
-		<script async src="./js/formHandler.min.js"defer></script>
+		<script async src="./js/blocs.min.js" defer></script>
+		<script async src="./js/jqBootstrapValidation.min.js" defer></script>
+		<script async src="./js/formHandler.min.js" defer></script>
 		<title>La Panthère</title>
 
 		<!-- Analytics -->
@@ -122,50 +122,53 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
-							<form
-								id="form_1"
-								novalidate
-								success-msg="Your message has been sent."
-								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-							>
+							<form id="form_1" novalidate>
 								<div class="form-group">
-									<label> Nom 
-									<input id="name" class="form-control" required />
-								</div></label>
+									<label>
+										Nom
+										<input id="name" class="form-control" required />
+									</label>
+								</div>
+
 								<div class="form-group">
-									<label> Adresse email 
-									<input
-										id="email"
-										class="form-control"
-										type="email"
-										required
-									/></label>
+									<label>
+										Adresse email
+										<input
+											id="email"
+											class="form-control"
+											type="email"
+											required
+										/>
+									</label>
 								</div>
 								<div class="form-group">
-									<label> Comment nous avez-vous connu ? 
-									<input
-										class="form-control"
-										type="email"
-										required
-										id="input_504"
+									<label>
+										Comment nous avez-vous connu ?
+										<input
+											class="form-control"
+											type="email"
+											required
+											id="input_504"
 									/></label>
 								</div>
 								<div class="form-group">
 									<label>
 										Brief de votre projet (Ajoutez autant de détails
-										que nécessaire)<br /> <textarea
-										id="message"
-										class="form-control"
-										rows="4"
-										cols="50"
-										required
-									></textarea></label
-									>
+										que nécessaire)<br />
+										<textarea
+											id="message"
+											class="form-control"
+											rows="4"
+											cols="50"
+											required
+										>
+										</textarea>
+									</label>
 								</div>
+
 								<button
 									class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 									type="submit"
-									href="contact.html"
 								>
 									Envoyer
 								</button>
